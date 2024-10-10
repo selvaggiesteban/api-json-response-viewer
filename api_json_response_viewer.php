@@ -1,8 +1,8 @@
 <?php
 // Configuración de la API
-$api_url = 'https://www.promoproductos.com/api/product';
-$api_user = 'cecilia@marking.com.ar';
-$api_password = 'e3cef9e17dcd1da5a3e0759c18c16aaa82adce4e';
+$api_url = '';
+$api_user = '';
+$api_password = '';
 // Función para manejar errores de cURL
 function handleCurlError($ch) {
     echo "Error al conectar con la API: " . curl_error($ch) . "\n";
